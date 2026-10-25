@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 import Anthropic from "@anthropic-ai/sdk";
 import { Logger } from "@nestjs/common";
 import type { AppConfig } from "../config/config.js";

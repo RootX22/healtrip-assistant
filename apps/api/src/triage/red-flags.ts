@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 import { normalizeText, splitClauses, stem, tokenize } from "../common/text.js";
 import {
   type Concept,

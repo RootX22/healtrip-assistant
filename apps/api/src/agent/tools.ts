@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 import type { BetaTool } from "@anthropic-ai/sdk/resources/beta/messages/messages";
 import { nextStepSchema, serviceSchema, urgencySchema } from "@healtrip/contracts";
 import { z } from "zod";

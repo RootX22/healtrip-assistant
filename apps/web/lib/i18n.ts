@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 import type { Engine, Grounding, Locale, NextStep, TurnKind, Urgency } from "@healtrip/contracts";
 
 export const LOCALES: readonly Locale[] = ["en", "ar"];

@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 import type { Locale, ProviderCard as Provider } from "@healtrip/contracts";
 import { countryName, dictionaries, formatFee, languageName, listSeparator } from "@/lib/i18n";
 

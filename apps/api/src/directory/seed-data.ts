@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 import type { Doctor, Facility, Specialty } from "./types.js";
 
 // Every facility and doctor below is fictional. Names, fees and waiting times

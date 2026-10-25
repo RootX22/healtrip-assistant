@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 import type { OnApplicationShutdown } from "@nestjs/common";
 import type { FacilityKind } from "@healtrip/contracts";
 import type pg from "pg";

@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 import { Module } from "@nestjs/common";
 import { APP_CONFIG, type AppConfig } from "../config/config.js";
 import { DirectoryModule } from "../directory/directory.module.js";

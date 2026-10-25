@@ -2,6 +2,8 @@
   "name": "@healtrip/web",
   "version": "0.1.0",
   "private": true,
+  "license": "UNLICENSED",
+  "author": "Mohamed Mohsen Shehata",
   "type": "module",
   "scripts": {
     "dev": "next dev --port 3000",

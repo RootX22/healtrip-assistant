@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 import { afterAll, beforeAll, describe, expect, it } from "vitest";
 import { createPool } from "../database/pool.js";
 import { setupDatabase } from "../database/setup.js";

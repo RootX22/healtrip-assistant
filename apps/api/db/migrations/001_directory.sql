@@ -1,3 +1,5 @@
+-- Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 -- Care directory: specialties, facilities, and the doctors who practise at them.
 
 CREATE TABLE specialties (

@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 import type { Locale, Urgency } from "@healtrip/contracts";
 import { arabicShare, normalizeText, tokenize } from "../common/text.js";
 import { urgencyRank } from "../triage/triage.js";

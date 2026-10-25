@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 import "reflect-metadata";
 import type { AssistantTurn, Conversation } from "@healtrip/contracts";
 import { assistantTurnSchema, errorResponseSchema } from "@healtrip/contracts";

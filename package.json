@@ -1,6 +1,8 @@
 {
   "name": "healtrip-assistant",
   "private": true,
+  "license": "UNLICENSED",
+  "author": "Mohamed Mohsen Shehata",
   "type": "module",
   "workspaces": [
     "packages/*",

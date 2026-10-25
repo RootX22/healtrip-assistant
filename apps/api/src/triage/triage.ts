@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 import { type ScreeningAnswer, type Urgency, urgencySchema } from "@healtrip/contracts";
 import { CHEST_PAIN_SCREEN, type ScreenDefinition } from "../i18n/messages.js";
 import { detect, type RedFlag, type SymptomFamily } from "./red-flags.js";

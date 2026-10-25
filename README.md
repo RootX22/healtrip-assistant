@@ -4,6 +4,8 @@ A prototype of the assistant a patient talks to before choosing where to go. The
 
 NestJS API, Next.js client in Arabic and English, PostgreSQL directory, Claude as the agent.
 
+> Written by Mohamed Mohsen Shehata as a hiring assessment. The code is published for evaluation only: all rights are reserved and no licence to use it is granted. See [LICENSE](LICENSE).
+
 ![A recommendation for exertional chest pain, with provider cards from the directory](docs/screenshots/02-recommendation.png)
 
 ## Running it
@@ -281,3 +283,9 @@ apps/api              NestJS service
 apps/web              Next.js client, Arabic and English
 packages/contracts    request and response schemas shared by both
 ```
+
+## License
+
+Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved.
+
+You may view and run this code to evaluate the author's application. Any other use, including in a product, a service or a client project, needs the author's written permission. The full terms are in [LICENSE](LICENSE).

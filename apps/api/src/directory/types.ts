@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 import type { FacilityKind, Service } from "@healtrip/contracts";
 
 export interface Specialty {

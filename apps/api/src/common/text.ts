@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 /**
  * Text handling shared by triage and grounding: both need Arabic and English
  * matched the way patients actually type them, not the way a dictionary spells

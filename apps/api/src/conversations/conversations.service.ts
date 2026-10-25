@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 import { ConflictException, Inject, Injectable, Logger, NotFoundException } from "@nestjs/common";
 import type {
   AssistantTurn,

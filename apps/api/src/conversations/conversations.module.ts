@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 import { Body, Controller, HttpCode, Module, Param, Post } from "@nestjs/common";
 import { Throttle } from "@nestjs/throttler";
 import {

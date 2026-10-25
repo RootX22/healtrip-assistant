@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 import type { DirectoryRepository } from "./directory.repository.js";
 import { bySuitability, matches, resolveCity } from "./query.js";
 import * as seed from "./seed-data.js";

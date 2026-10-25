@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 "use client";
 
 import type { Locale, Screening, ScreeningAnswer } from "@healtrip/contracts";

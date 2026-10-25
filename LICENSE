@@ -1,0 +1,49 @@
+Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved.
+
+This repository was written by Mohamed Mohsen Shehata as part of a hiring
+assessment. Its source code, documentation, database schema, seed data,
+prompts, designs and screenshots (together, the "Software") are the author's
+own work and are protected by copyright law.
+
+1. Evaluation only
+
+   The author permits the recipients of the assessment to view the Software
+   and run it locally for the sole purpose of evaluating the author's
+   application. This permission is personal, non-exclusive, non-transferable
+   and free of charge, and it ends when the evaluation ends.
+
+2. Everything else is reserved
+
+   No other right or licence is granted, whether expressly, by implication or
+   otherwise. Without the author's prior written permission, no person or
+   organisation may:
+
+   a. use the Software, or any part of it, in a product, service, internal
+      tool or client project, whether commercial or not;
+   b. copy, modify, adapt, translate or build derivative works from it,
+      including by re-implementing its design, prompts or architecture
+      from this source;
+   c. publish, distribute, sublicense, sell, rent or host it for others;
+   d. use it to train or fine-tune machine learning models;
+   e. remove or alter this notice or the copyright notices in its files.
+
+3. No transfer of ownership
+
+   Submitting the Software for an assessment, publishing it on GitHub, and
+   any viewing, cloning or forking that GitHub's Terms of Service allow do not
+   transfer ownership of it and do not grant a licence to use it. Any use
+   beyond section 1 requires a separate written agreement signed by the
+   author, which may include a fee.
+
+4. No warranty
+
+   The Software is provided "as is", without warranty of any kind. The author
+   is not liable for any claim, damages or other liability arising from it or
+   from its use.
+
+5. Fictional data
+
+   The doctors and facilities in the seed data are invented for the
+   demonstration and do not describe real people or organisations.
+
+Licensing enquiries: https://github.com/RootX22

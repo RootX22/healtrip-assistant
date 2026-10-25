@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 import type { AssistantTurn, Locale } from "@healtrip/contracts";
 import { dictionaries } from "@/lib/i18n";
 

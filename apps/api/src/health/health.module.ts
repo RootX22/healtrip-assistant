@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 import { Controller, Get, Inject, Module, Res } from "@nestjs/common";
 import { SkipThrottle } from "@nestjs/throttler";
 import type { Response } from "express";

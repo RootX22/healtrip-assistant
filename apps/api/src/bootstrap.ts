@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 import type { NestExpressApplication } from "@nestjs/platform-express";
 import helmet from "helmet";
 import type { AppConfig } from "./config/config.js";

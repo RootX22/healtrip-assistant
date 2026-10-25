@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 /**
  * What the triage layer listens for, written the way patients write it.
  *

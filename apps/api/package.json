@@ -2,6 +2,8 @@
   "name": "@healtrip/api",
   "version": "0.1.0",
   "private": true,
+  "license": "UNLICENSED",
+  "author": "Mohamed Mohsen Shehata",
   "type": "module",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",

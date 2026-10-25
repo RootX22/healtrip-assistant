@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 import { describe, expect, it } from "vitest";
 import { checkRespond, type GroundingContext, NameIndex } from "./grounding.js";
 import type { RespondInput } from "./tools.js";

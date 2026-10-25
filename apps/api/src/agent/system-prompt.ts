@@ -1,3 +1,5 @@
+// Copyright (c) 2026 Mohamed Mohsen Shehata. All rights reserved. See LICENSE.
+
 /**
  * Frozen text: it sits at the front of every request, so any byte that changes
  * here invalidates the prompt cache for every conversation. Per-turn facts go
