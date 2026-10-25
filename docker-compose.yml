@@ -1,0 +1,55 @@
+# docker compose up --build    then open http://localhost:3000
+# Set ANTHROPIC_API_KEY in your shell or in .env to run on Claude; without it
+# the API runs on the rule-based engine and the rest of the system is unchanged.
+
+services:
+  db:
+    image: postgres:18-alpine
+    environment:
+      POSTGRES_USER: healtrip
+      POSTGRES_PASSWORD: healtrip
+      POSTGRES_DB: healtrip
+    volumes:
+      - db-data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U healtrip -d healtrip"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+
+  # One-shot: applies migrations and seeds the directory, then exits.
+  migrate:
+    build: { context: ., dockerfile: apps/api/Dockerfile }
+    image: healtrip-api:local
+    command: ["node", "dist/database/setup.js"]
+    environment:
+      DATABASE_URL: postgres://healtrip:healtrip@db:5432/healtrip
+    depends_on:
+      db: { condition: service_healthy }
+    restart: "no"
+
+  api:
+    build: { context: ., dockerfile: apps/api/Dockerfile }
+    image: healtrip-api:local
+    environment:
+      DATABASE_URL: postgres://healtrip:healtrip@db:5432/healtrip
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      LLM_ENGINE: ${LLM_ENGINE:-}
+      CORS_ORIGIN: http://localhost:3000
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+    ports:
+      - "4000:4000"
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+      args: { API_ORIGIN: "http://api:4000" }
+    depends_on:
+      api: { condition: service_healthy }
+    ports:
+      - "3000:3000"
+
+volumes:
+  db-data:
