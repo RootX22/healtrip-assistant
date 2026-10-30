@@ -16,6 +16,9 @@ updates:
       # ships, so that upgrade is made by hand.
       - dependency-name: "typescript"
         update-types: ["version-update:semver-major"]
+      # The types describe the Node runtime, which stays on the 24 LTS line.
+      - dependency-name: "@types/node"
+        update-types: ["version-update:semver-major"]
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
